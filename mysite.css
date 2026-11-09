@@ -11,6 +11,7 @@
     bottom: 103px; 
 }
 h1{
+    color: white; 
     font-family:"Press Start 2P"; 
     text-align: center;
     position: relative ;
@@ -18,5 +19,5 @@ h1{
 }
 .Searching{
     position: relative ; 
-    bottom: 20px; 
+    bottom:  25px; 
 }
