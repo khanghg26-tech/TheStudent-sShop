@@ -1,1 +1,29 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Test của Khang</title>
+</head>
 
+<body>
+
+<div
+style="
+  text-align: center; 
+  font-size: 100px; 
+  background-color: black;">
+   
+  <a 
+    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    target="_self" 
+    style=" color:aqua;
+    background-color: green;"
+    >nhấp vào đây
+</a>
+</div>
+</body>
+
+
+
+
+  
+</html>
