@@ -1,6 +1,8 @@
-/html/
-/head/ 
+const supabase = window.supabase,createClient(
 
+
+
+)
 
 
 async function dangki() {
