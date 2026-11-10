@@ -1,4 +1,4 @@
-const supabase = window.supabase,createClient(
+const supabase = window.supabase.createClient(
 
 
 
