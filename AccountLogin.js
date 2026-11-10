@@ -1,8 +1,8 @@
 const supabase = window.supabase.createClient(
-
-
-
-)
+https://heokwvpwgywytfcrixnv.supabase.co
+sb_publishable_6lLhraUKOx1njGz87jIW8g_ijOxcd8l
+  
+);
 
 
 async function dangki() {
