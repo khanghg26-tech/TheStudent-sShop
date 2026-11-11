@@ -26,7 +26,7 @@
         <input required type="password" name="re-password" id ="RegisterRe-password" placeholder="Nhập lại mật khẩu">
         <br>
     </div>
-    <div id = "submitIn4"> <button oneclick="Register()" type="submit" id="RegisterButton">Đăng ký</button></div>
+    <div id = "submitIn4"> <button onclick="Register()" type="submit" id="RegisterButton">Đăng ký</button></div>
 </div>
 </div>
 
@@ -39,6 +39,11 @@
     <input required type="password" id="LogInPassword" placeholder="Nhập mật khẩu">
     <br>
     <button onclick="LogIn()" type="submit" id="LogInButton">Đăng nhập</button>
+    <br>
+</div>
+
+<div id="LogOutPage">
+    <button onclick="LogOut()">Đăng xuất</button>
 </div>
 
     <script scr="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
