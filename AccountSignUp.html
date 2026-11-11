@@ -10,21 +10,21 @@
 </head>
 <h1> Đăng ký tại đây</h1>
 <div class="information">
-    <form>
+    <form id="RegisterForm">
     <div>
-        <label>Username</label>
-        <input required type="text" name = "Tên" id ="username" maxlength="30" placeholder="Nhập tên của bạn">
+        <label>Username:</label>
+        <input required type="text" name = "Tên" id ="RegisterUsername" maxlength="30" placeholder="Nhập tên của bạn">
         <br>
-        <label>Email</label>
-        <input required type="text" name="Email" id = "email" placeholder="Nhập email">
+        <label>Email:</label>
+        <input required type="email" name="Email" id = "RegisterEmail" placeholder="Nhập email">
         <br>
-        <label>Password</label>
-        <input required type="text" name="password" id ="password" placeholder="Mật khẩu khởi tạo">
+        <label>Mật khẩu:</label>
+        <input required type="password" name="password" id ="RegisterPassword" placeholder="Nhập mật khẩu">
         <br>
-        <label>Re-password</label>
-        <input required type="text" name="re-password" id ="re-password" placeholder="Nhập lại mật khẩu">
+        <label>Nhập lại mật khẩu:</label>
+        <input required type="password" name="re-password" id ="RegisterRe-password" placeholder="Nhập lại mật khẩu">
     </div>
-    <div id = "submitIn4"> <button oneclick="dangky()" type="submit">Đăng ký</button></div>
+    <div id = "submitIn4"> <button oneclick="Register()" type="submit">Đăng ký</button></div>
 </div>
 
     <script scr="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
