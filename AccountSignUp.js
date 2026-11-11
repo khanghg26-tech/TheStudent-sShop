@@ -11,13 +11,14 @@ async function Register() {
   const RegisterUsername = document.getElementById("RegisterUsername").value
   const RegisterEmail = document.getElementById("RegisterEmail").value
   const RegisterPassword = document.getElementById("RegisterPassword").value
-  const RegisterRe-password = document.getElementById("RegisterRepassword").value
+  const RegisterRepassword = document.getElementById("RegisterRepassword").value
 
   if (RegisterUsername === "" || RegisterEmail === "" || 
       RegisterPassword === "" || RegisterRepassword === """) {
       alert("Vui lòng nhập đủ thông tin!");
       return;
-}
+      }
+      
 if (RegisterPassword.length < 6) {
   alert("Mật khẩu phải có ít nhất 6 ký tự!");
   return;
@@ -44,5 +45,11 @@ alert("Đăng ký thành công");
 if (data.session) {
   ShowUser(data.session.user);
 }
+}
 
+async function LogIn() {
+  const LogInEmail = document.getElementById("LogInEmail").value
+  const LogInPassword = document.getElementById("LogInPassword").value
+
+  
 }
