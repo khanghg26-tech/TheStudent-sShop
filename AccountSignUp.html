@@ -8,7 +8,8 @@
 
 
 </head>
-<h1> Đăng ký tại đây</h1>
+<div id="RegisterPage">
+<h1> Đăng ký tại đây </h1>
 <div class="information">
     <form id="RegisterForm">
     <div>
@@ -23,8 +24,21 @@
         <br>
         <label>Nhập lại mật khẩu:</label>
         <input required type="password" name="re-password" id ="RegisterRe-password" placeholder="Nhập lại mật khẩu">
+        <br>
     </div>
-    <div id = "submitIn4"> <button oneclick="Register()" type="submit">Đăng ký</button></div>
+    <div id = "submitIn4"> <button oneclick="Register()" type="submit" id="RegisterButton">Đăng ký</button></div>
+</div>
+</div>
+
+<div id="LogInPage">
+    <h1> Đăng nhập tại đây </h1>
+    <label>Email:</label>
+    <input required type="email" id="LogInEmail" placeholder="Nhập email">
+    <br>
+    <label>Password:</label>
+    <input required type="password" id="LogInPassword" placeholder="Nhập mật khẩu">
+    <br>
+    <button onclick="LogIn()" type="submit" id="LogInButton">Đăng nhập</button>
 </div>
 
     <script scr="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
