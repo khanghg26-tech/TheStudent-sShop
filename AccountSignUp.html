@@ -8,6 +8,7 @@
 
 
 </head>
+<body>
 <div id="RegisterPage">
 <h1> Đăng ký tại đây </h1>
 <div class="information">
@@ -23,10 +24,11 @@
         <input required type="password" name="password" id ="RegisterPassword" placeholder="Nhập mật khẩu">
         <br>
         <label>Nhập lại mật khẩu:</label>
-        <input required type="password" name="re-password" id ="RegisterRe-password" placeholder="Nhập lại mật khẩu">
+        <input required type="password" name="re-password" id ="RegisterRepassword" placeholder="Nhập lại mật khẩu">
         <br>
+    </form>
     </div>
-    <div id = "submitIn4"> <button onclick="Register()" type="submit" id="RegisterButton">Đăng ký</button></div>
+    <div id = "submitIn4"> <button onclick="Register()" type="button" id="RegisterButton">Đăng ký</button></div>
 </div>
 </div>
 
@@ -38,16 +40,17 @@
     <label>Password:</label>
     <input required type="password" id="LogInPassword" placeholder="Nhập mật khẩu">
     <br>
-    <button onclick="LogIn()" type="submit" id="LogInButton">Đăng nhập</button>
+    <button onclick="LogIn()" type="button" id="LogInButton">Đăng nhập</button>
     <br>
 </div>
 
 <div id="LogOutPage">
     <button onclick="LogOut()">Đăng xuất</button>
 </div>
+</body>
 
-    <script scr="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script scr="AccountSignUp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="AccountSignUp.js"></script>
 
 
 
