@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
     <link rel="stylesheet" href="Acstylesheet.css">
 
 
 </head>
-<h1> Đăng nhập tại đây</h1>
+<h1> Đăng ký tại đây</h1>
 <div class="information">
     <form>
     <div>
-         <input required type="text" name = "Tên" id ="username" placeholder="Nhập tên của bạn"
+         <input required type="text" name = "Tên" id ="username" maxlength="30" placeholder="Nhập tên của bạn"
     </div> 
     <div>
         <input required type="text" name="Email" id = "email" placeholder="Email"
@@ -24,7 +27,7 @@
 </div>
 
     <script scr="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script scr="AccountLogin.js"></script>
+    <script scr="AccountSignUp.js"></script>
 
 
 
