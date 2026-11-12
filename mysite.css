@@ -23,9 +23,8 @@ h1{
 }
 #imageAC{
     position: relative;
-    text-align: right;
-    right: 30px;
-    bottom: 10px; 
+    left: 375px;
+    top: 10px; 
     transition: 0;
 }
 
