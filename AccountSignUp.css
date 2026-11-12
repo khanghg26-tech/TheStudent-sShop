@@ -4,3 +4,13 @@ body {
    background-attachment: fixed;
    background-repeat: no-repeat;
 }
+#email {
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 12px;
+   text-align: center;
+   color: black;
+   background-color: white;
+   box-shadow: 0px 4px 10px 2px black;
+}
+   
