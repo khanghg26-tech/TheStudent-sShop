@@ -23,9 +23,10 @@ h1{
 }
 #imageAC{
     position: relative;
-    left: 375px;
+    text-align: right;
+    left: 500px;
     top: 10px; 
-    transition: 0;
+    
 }
 
 #imageAC:hover{
