@@ -13,7 +13,7 @@ submitbutton.addEventListener("click", async (e)=>{
     const Subname = document.getElementById("username").value
     const Subemail = document.getElementById("email").value
     const Subpassword = document.getElementById("password").value
-    const Subrepassword = document.geêtlementById("re-password").value
+    const Subrepassword = document.getlementById("re-password").value
         console.log(Subname)
         console.log(Subemail)
         console.log(Subpassword)
