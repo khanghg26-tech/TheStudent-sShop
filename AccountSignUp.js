@@ -13,9 +13,11 @@ submitbutton.addEventListener("click", async (e)=>{
     const Subname = document.getElementById("username").value
     const Subemail = document.getElementById("email").value
     const Subpassword = document.getElementById("password").value
+    const Subrepassword = document.geêtlementById("re-password").value
         console.log(Subname)
         console.log(Subemail)
         console.log(Subpassword)
+        console.log(Subrepassword)
     const {data, error}= await supabaseClient.auth.signUp({
         email: Subemail, 
         password: Subpassword,
@@ -26,10 +28,18 @@ submitbutton.addEventListener("click", async (e)=>{
         }
     })
 
-      if(error){
+ if (error) {
         alert("Đăng ký không thành công do "+ error.message )
     }
-    else{
+ else{
         alert("Đăng ký thành công, kiểm tra và xác nhận email của bạn nhé!")
     } 
+ if (Subrepassword !== Subpassword) {
+  alert("Mật khẩu nhập lại không đúng!");
+  return;
+ }
+ if (Subname ==="" || Subemail ==="" || Subpassword ==="" || Subrepassword ==="") {
+  alert("Vui lòng nhập đầy đủ thông tin");
+  return;
+ }
 }); 
