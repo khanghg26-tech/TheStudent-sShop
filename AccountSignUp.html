@@ -1,58 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up page</title>
-    <link rel="stylesheet" href="Acstylesheet.css">
-
-
-</head>
-<body>
-<div id="RegisterPage">
-<h1> Đăng ký tại đây </h1>
-<div class="information">
-    <form id="RegisterForm">
-    <div>
-        <label>Username:</label>
-        <input required type="text" name = "Tên" id ="RegisterUsername" maxlength="30" placeholder="Nhập tên của bạn">
-        <br>
-        <label>Email:</label>
-        <input required type="email" name="Email" id = "RegisterEmail" placeholder="Nhập email">
-        <br>
-        <label>Mật khẩu:</label>
-        <input required type="password" name="password" id ="RegisterPassword" placeholder="Nhập mật khẩu">
-        <br>
-        <label>Nhập lại mật khẩu:</label>
-        <input required type="password" name="re-password" id ="RegisterRepassword" placeholder="Nhập lại mật khẩu">
-        <br>
-    </form>
-    </div>
-    <div id = "submitIn4"> <button onclick="Register()" type="button" id="RegisterButton">Đăng ký</button></div>
-</div>
-</div>
-
-<div id="LogInPage">
-    <h1> Đăng nhập tại đây </h1>
-    <label>Email:</label>
-    <input required type="email" id="LogInEmail" placeholder="Nhập email">
-    <br>
-    <label>Password:</label>
-    <input required type="password" id="LogInPassword" placeholder="Nhập mật khẩu">
-    <br>
-    <button onclick="LogIn()" type="button" id="LogInButton">Đăng nhập</button>
-    <br>
-</div>
-
-<div id="LogOutPage">
-    <button onclick="LogOut()">Đăng xuất</button>
-</div>
-</body>
-
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="AccountSignUp.js"></script>
-
-
+</head>
+<h1> Đăng ký tại đây</h1>
+<body>
+    <div class="information">
+    <form>
+    <div>
+         <input required type="name" name = "Tên" id ="username" placeholder="Nhập tên của bạn"
+    </div> 
+    <div>
+        <input required type="email" name="Email" id = "email" placeholder="Nhập email của bạn"
+    </div>
+    <div>
+        <input required type="password" name="password" id ="password" placeholder="Mật khẩu khởi tạo"
+    </div>
+    <div>
+        <input required type="text" name="re-password" id ="re-password" placeholder="Nhập lại mật khẩu"
+    </div>
+    <div id = "submitIn4"> <button type="button">Hoàn tất</button></div>
+    </div> 
+  
+    <script src="java.js"></script>
+</body>
 
 
 
