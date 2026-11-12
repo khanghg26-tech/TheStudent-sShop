@@ -25,9 +25,9 @@ h1{
     position: relative;
     left: 30px;
     bottom: 375px; 
+    transition: 0;
 }
 
 #imageAC:hover{
-    height: 70px;
-    width: 70px;
+   transform: scale(1.4)
 }
