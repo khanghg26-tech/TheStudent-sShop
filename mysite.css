@@ -24,7 +24,7 @@ h1{
 #imageAC{
     position: relative;
     left: 30px;
-    top: 10px; 
+    bottom: 10px; 
     transition: 0;
 }
 
