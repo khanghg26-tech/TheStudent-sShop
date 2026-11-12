@@ -27,9 +27,9 @@ submitbutton.addEventListener("click", async (e)=>{
     })
 
       if(error){
-        alert("Đăng ký không thành công")
+        alert("Đăng ký không thành công do "+ error.message )
     }
     else{
-        alert("Đăng ký thành công")
+        alert("Đăng ký thành công, kiểm tra và xác nhận email của bạn nhé!")
     } 
 }); 
