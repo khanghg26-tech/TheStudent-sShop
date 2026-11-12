@@ -30,7 +30,6 @@ submitbutton.addEventListener("click", async (e)=>{
         alert("Đăng ký không thành công do "+ error.message )
     }
     else{
-      
         alert("Đăng ký thành công, kiểm tra và xác nhận email của bạn nhé!")
     } 
 }); 
