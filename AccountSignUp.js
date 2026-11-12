@@ -33,6 +33,7 @@ submitbutton.addEventListener("click", async (e)=>{
     }
  else{
         alert("Đăng ký thành công, kiểm tra và xác nhận email của bạn nhé!")
+        window.location.href="index.html"
     } 
  if (Subrepassword !== Subpassword) {
   alert("Mật khẩu nhập lại không đúng!");
