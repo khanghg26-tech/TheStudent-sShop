@@ -21,8 +21,8 @@ h1{
     position: relative ; 
     bottom:  25px; 
 }
-.imageAC{
+#imageAC{
     position: relative;
-    left: 10px;
+    left: 50px;
     bottom: 375px; 
 }
