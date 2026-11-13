@@ -39,6 +39,7 @@ button:hover {
     top: 100px;
     width: fit-content;
     left: 600px;
+    gap: 15px;
 }
 #imageH {
    position: relative;
