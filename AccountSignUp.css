@@ -34,7 +34,8 @@ button:hover {
     border-radius: 12px;
     background-color: white;
     text-align: center;
-    position: relative top 100%;
+    position: relative;
+    top: 100px;
 }
     
     
