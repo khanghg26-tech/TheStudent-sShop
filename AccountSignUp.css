@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-input {
+.SignupZ input {
    display: flex;
    flex-direction: column;
    gap: 15px;
@@ -30,7 +30,7 @@ button:hover {
    padding: 12px;
    text-align: center;
    color: black;
-   background-color: light green;
+   background-color: green;
 }
 .SignupZ {
     display: inline-block;
@@ -40,19 +40,19 @@ button:hover {
     text-align: center;
     position: relative;
     top: 100px;
-    width: 300px;
+    width: fit-content;
     left: 600px;
 }
 #imageH {
    position: relative;
-   right: 150px; 
+   right: 100px; 
    margin-bottom: 10px;
 }
 
 #imageH:hover{
    transform: scale(0.8)
 }
-b {
+.SignupZ b {
    display: flex;
    flex-direction: column;
    align-item: start;
