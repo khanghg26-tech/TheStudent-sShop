@@ -6,9 +6,6 @@ body {
     background-repeat: no-repeat;
 }
 .SignupZ input {
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
    border: 1px solid black;
    border-radius: 10px;
    padding: 12px;
@@ -53,9 +50,8 @@ button:hover {
    transform: scale(0.8)
 }
 .SignupZ b {
-   display: flex;
    flex-direction: column;
-   align-item: start;
+   align-items: start;
 }
 
     
