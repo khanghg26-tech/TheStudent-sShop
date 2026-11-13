@@ -42,7 +42,8 @@ button:hover {
 }
 #imageH {
    position: relative;
-   right: 50px;    
+   right: 150px; 
+   margin-bottom: 10px;
 }
 
 #imageH:hover{
