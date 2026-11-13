@@ -1,7 +1,7 @@
 body {
     background-image: url("TheStudentShop.png");
     height: 135vh;
-    width: cover;
+    width: 325%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@ button:hover {
 }
 #imageH {
    position: relative;
-   left: 50px;    
+   right: 50px;    
 }
 
 #imageH:hover{
