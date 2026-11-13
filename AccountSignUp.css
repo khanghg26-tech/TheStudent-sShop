@@ -43,7 +43,7 @@ button:hover {
 }
 #imageH {
    position: relative;
-   right: 115px; 
+   right: 125px; 
    top: 20px;
    margin-bottom: 5px;
 }
@@ -55,7 +55,7 @@ button:hover {
     display: flex;
     gap: 15px;
     flex-direction: column;
-    align-items: end;
+   
 }
 
     
