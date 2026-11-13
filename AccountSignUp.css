@@ -38,6 +38,15 @@ button:hover {
     position: relative;
     top: 100px;
     width: 300px;
+    left: 600px;
+}
+#imageH {
+   position: relative;
+   left: 50px;    
+}
+
+#imageH:hover{
+   transform: scale(0.8)
 }
     
     
