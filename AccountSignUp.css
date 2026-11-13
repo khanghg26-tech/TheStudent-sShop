@@ -12,6 +12,8 @@ body {
    text-align: center;
    color: black;
    background-color: white;
+   flex-direction: column;
+   align-items: start;
 }
 button {
    border: 1px solid black;
@@ -50,10 +52,7 @@ button:hover {
 #imageH:hover{
    transform: scale(0.8)
 }
-.SignupZ b {
-   flex-direction: column;
-   align-items: start;
-}
+
 
     
     
